@@ -1,0 +1,24 @@
+[
+    {
+        "model": "levelupapi.games",
+        "pk": 1,
+        "fields": {
+            "title": "Gloomhaven",
+            "number_of_players": 2,
+            "description": "2-4 player RPG board game with multiple sessions",
+            "game_type_id": 2,
+            "gamer_id": 1 
+        }
+    },
+    {
+        "model": "levelupapi.games",
+        "pk": 2,
+        "fields": {
+            "title": "Star Realms",
+            "number_of_players": 1,
+            "description": "Primarily 2 player card game",
+            "game_type_id": 2,
+            "gamer_id": 1
+        }
+    }
+]

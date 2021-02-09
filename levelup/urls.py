@@ -16,8 +16,14 @@ Including another URLconf
 from django.conf.urls import include
 from django.urls import path
 from levelupapi.views import register_user, login_user
+from rest_framework import routers
+from levelupapi.views import GameTypes
+
+router = routers.DefulatRouter(trailing_slash=False)
+router.register(r'gametypes', GameTypes, 'gametype')
 
 urlpatterns = [
+    path('', include(router.urls)),
     #requests to http://localhost:8000/register will be routed to the register_user function
     path('register', register_user),
     #requests to http://localhost:8000/login will be routed to the login_user function

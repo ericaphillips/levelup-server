@@ -3,22 +3,36 @@
         "model": "levelupapi.games",
         "pk": 1,
         "fields": {
-            "title": "Gloomhaven",
-            "number_of_players": 2,
-            "description": "2-4 player RPG board game with multiple sessions",
-            "game_type_id": 2,
-            "gamer_id": 1 
+            "title": "Welcome To",
+            "maker": "Benoit Turpin",
+            "gamer": 1,
+            "gametype": 1,
+            "number_of_players": 4,
+            "skill_level": 3
         }
     },
     {
         "model": "levelupapi.games",
         "pk": 2,
         "fields": {
-            "title": "Star Realms",
-            "number_of_players": 1,
-            "description": "Primarily 2 player card game",
-            "game_type_id": 2,
-            "gamer_id": 1
+            "title": "Settlers of Catan",
+            "maker": "Klaus Teuber",
+            "gamer": 1,
+            "gametype": 1,
+            "number_of_players": 4,
+            "skill_level": 4
+        }
+    },
+    {
+        "model": "levelupapi.games",
+        "pk": 3,
+        "fields": {
+            "title": "Dungeons & Dragons",
+            "maker": "Wizards of the Coast",
+            "gamer": 1,
+            "gametype": 2,
+            "number_of_players": 5,
+            "skill_level": 3
         }
     }
 ]

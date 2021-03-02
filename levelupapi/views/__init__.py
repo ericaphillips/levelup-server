@@ -9,3 +9,8 @@ from .event import EventSerializer
 from .event import EventUserSerializer
 from .event import EventGamerSerializer
 from .event import GameSerializer
+from .profile import Profile
+from .profile import GameSerializer
+from .profile import UserSerializer
+from .profile import GamerSerializer
+from .profile import EventSerializer
